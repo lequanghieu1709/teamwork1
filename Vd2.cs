@@ -10,7 +10,7 @@ public class BadSchoolProgram
         List<string> courses = new List<string>();
         List<string> enrollments = new List<string>();
         List<string> grades = new List<string>();
-
+//hieudz 
         int menu = 0;
         while (menu != 99)
         {
