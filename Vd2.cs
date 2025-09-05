@@ -16,7 +16,7 @@ class Student
 
 public class BadSchoolProgram
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         List<string> students = new List<string>();
         // List<string> teachers = new List<string>();
