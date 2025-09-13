@@ -19,10 +19,6 @@ public class BadSchoolProgram
     public static void Main(string[] args)
     {
         List<string> students = new List<string>();
-        // List<string> teachers = new List<string>();
-        // List<string> courses = new List<string>();
-        //List<string> enrollments = new List<string>();
-        //List<string> grades = new List<string>();
 
         int mainMenu = 0;
         while (mainMenu != 99)
@@ -44,7 +40,7 @@ public class BadSchoolProgram
         }
     }
     static void studentMenu(){
-        int menuStudents = 0; //smenu -> studentsMenu
+        int menuStudents = 0; 
         while (menuStudents != 9)
         {
             Console.WriteLine("--- QUAN LY SINH VIEN ---");
