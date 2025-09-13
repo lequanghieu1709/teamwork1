@@ -16,9 +16,28 @@ class Student
 
 public class BadSchoolProgram
 {
-    public static void Main(string[] args)
+    static List<Student> students = new List<Student>();
     {
+<<<<<<< HEAD
         List<string> students = new List<string>();
+=======
+        static void addStudent()
+    {
+        Console.WriteLine("\n--- THEM SINH VIEN ---");
+        Console.Write("Nhap id: ");
+        string id = Console.ReadLine();
+        Console.Write("Nhap ten: ");
+        string name = Console.ReadLine();
+        Console.Write("Nhap tuoi: ");
+        int age = int.Parse(Console.ReadLine());
+        Console.Write("Nhap GPA: ");
+        double gpa = double.Parse(Console.ReadLine());
+        
+        students.Add(new Student { Id = id, Name = name, Age = age, GPA = gpa });
+        
+        Console.WriteLine("Da them sinh vien thanh cong!\n");
+    }
+>>>>>>> 7d9fc68 (update thành công)
 
         int mainMenu = 0;
         while (mainMenu != 99)
